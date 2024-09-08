@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: beige;
+    height: 1500px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.child{
+    width: 400px;
+    height: 50px;
+    background-color: cadetblue;
+    height: 50px;
+    border: 4px solid black;
+    
+
+}
+.childTop1{
+    width: 400px;
+    height: 50px;
+    border: 4px solid black;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+}
+.childTop2{
+    width: 400px;
+    height: 50px;
+    border: 4px solid black;
+    background-color: brown;
+    position:sticky;
+    top: 0;
+}
+.btn{
+    margin-top: 10px;
+    height: 20px;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+
+}
